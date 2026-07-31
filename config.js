@@ -95,7 +95,7 @@ module.exports = {
   APPROVE: (process.env.APPROVE || '').trim(),
   ANTI_DELETE: (process.env.ANTI_DELETE || 'null').trim(),
   PERSONAL_MESSAGE: (process.env.PERSONAL_MESSAGE || 'null').trim(),
-  DISABLE_START_MESSAGE: process.env.DISABLE_START_MESSAGE || 'false',
+  DISABLE_START_MESSAGE: process.env.DISABLE_START_MESSAGE || 'true',
   ANTI_BOT: (process.env.ANTI_BOT || 'off').trim(),
   ANTI_BOT_MESSAGE: process.env.ANTI_BOT_MESSAGE || '&mention removed',
   WARN_MESSAGE:
